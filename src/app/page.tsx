@@ -93,17 +93,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Basra Commercial Plaza",          price: "Mixed-Use",          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-patterned-wall_1359-1004.jpg"},
+          id: "p1",          name: "Tourist resort",          price: "Mixed-Use",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523305265-535g7021.jpg"},
         {
-          id: "p2",          name: "Modern Luxury Villa",          price: "Residential",          imageSrc: "http://img.b2bpic.net/free-photo/beachfront-bungalow-dusk_23-2152016394.jpg"},
+          id: "p2",          name: "Modern House",          price: "Residential",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523360023-0humvnjc.jpg"},
         {
-          id: "p3",          name: "Corporate Office HQ",          price: "Commercial",          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-from-home_23-2148916091.jpg"},
+          id: "p3",          name: "Interior Design",          price: "Residential",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523571238-lqlz2sok.jpg"},
         {
-          id: "p4",          name: "Green Urban Flats",          price: "Residential",          imageSrc: "http://img.b2bpic.net/free-photo/daylight-analog-city-landscape-with-buildings_23-2149661406.jpg"},
+          id: "p4",          name: "Rooftop terrace",          price: "Residential",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523646707-nqgbxh7x.jpg"},
         {
-          id: "p5",          name: "Public Transit Hub",          price: "Infrastructure",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-loft-luxury-living-room-with-design-chandelier_105762-2226.jpg"},
+          id: "p5",          name: "Public Transit Hub",          price: "Residential",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-loft-luxury-living-room-with-design-chandelier_105762-2226.jpg"},
         {
-          id: "p6",          name: "City Bridge Project",          price: "Infrastructure",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-yellow-cable-stayed-bridge-with-blue-cloudy-sky_181624-13017.jpg"},
+          id: "p6",          name: "Indoor Garden Design",          price: "Residential",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523686573-zluw9in7.jpg"},
       ]}
       title="Our Projects"
       description="Selected architectural design highlights across Iraq and beyond."
