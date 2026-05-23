@@ -66,7 +66,7 @@ export default function LandingPage() {
         {
           id: "5",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779522866809-y300g1cr.png",          imageAlt: "Mixed-Use Lounge"},
         {
-          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/urban-landscape-japan-trails-sunset_23-2148889586.jpg",          imageAlt: "Urban Infrastructure"},
+          id: "6",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523216722-8j4wb9y0.jpg",          imageAlt: "Urban Infrastructure"},
       ]}
     />
   </div>
