@@ -19,27 +19,26 @@ export default function LandingPage() {
         defaultButtonVariant="shift-hover"
         defaultTextAnimation="reveal-blur"
         borderRadius="rounded"
+        contentWidth="medium"
+        sizing="medium"
+        background="circleGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="gradient"
+        secondaryButtonStyle="glass"
+        headingFontWeight="normal"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Projects",
-          id: "projects",
-        },
+          name: "Projects",          id: "projects"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Al-Tiraz Engineering"
     />
@@ -48,47 +47,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "rotated-rays-animated",
-      }}
+        variant: "rotated-rays-animated"}}
       title="Transforming Spaces Into Purposeful Design"
       description="Explore our award-quality architecture across residential, commercial, and mixed-use developments. See how we've shaped communities and delivered lasting value to our clients."
       buttons={[
         {
-          text: "View Our Portfolio",
-          href: "#projects",
-        },
+          text: "View Our Portfolio",          href: "#projects"},
       ]}
       carouselItems={[
         {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-skyscrapers-with-windows_23-2148836738.jpg",
-          imageAlt: "Modern Commercial Skyscraper",
-        },
+          id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/modern-skyscrapers-with-windows_23-2148836738.jpg",          imageAlt: "Modern Commercial Skyscraper"},
         {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-textured-facade-modern-building_181624-16993.jpg",
-          imageAlt: "Luxury Residential Villa",
-        },
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-textured-facade-modern-building_181624-16993.jpg",          imageAlt: "Luxury Residential Villa"},
         {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-business-meeting-working-room-office-building_105762-1972.jpg",
-          imageAlt: "Commercial Office Interior",
-        },
+          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-business-meeting-working-room-office-building_105762-1972.jpg",          imageAlt: "Commercial Office Interior"},
         {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-photo/architectural-marvel-with-lush-greenery-sustainable-design_23-2151990792.jpg",
-          imageAlt: "Apartment Complex",
-        },
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/architectural-marvel-with-lush-greenery-sustainable-design_23-2151990792.jpg",          imageAlt: "Apartment Complex"},
         {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/teen-receiving-psychotherapy-advice-support-emotional-issues_482257-117668.jpg",
-          imageAlt: "Mixed-Use Lounge",
-        },
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/teen-receiving-psychotherapy-advice-support-emotional-issues_482257-117668.jpg",          imageAlt: "Mixed-Use Lounge"},
         {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/urban-landscape-japan-trails-sunset_23-2148889586.jpg",
-          imageAlt: "Urban Infrastructure",
-        },
+          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/urban-landscape-japan-trails-sunset_23-2148889586.jpg",          imageAlt: "Urban Infrastructure"},
       ]}
     />
   </div>
@@ -98,18 +76,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       heading={[
         {
-          type: "text",
-          content: "Al-Tiraz Engineering:",
-        },
+          type: "text",          content: "Al-Tiraz Engineering:"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/business-people-looking-plans-office_23-2148017110.jpg",
-          alt: "Al-Tiraz Engineering Studio",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/business-people-looking-plans-office_23-2148017110.jpg",          alt: "Al-Tiraz Engineering Studio"},
         {
-          type: "text",
-          content: "Defining Architectural Standards.",
-        },
+          type: "text",          content: "Defining Architectural Standards."},
       ]}
     />
   </div>
@@ -122,41 +93,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Basra Commercial Plaza",
-          price: "Mixed-Use",
-          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-patterned-wall_1359-1004.jpg",
-        },
+          id: "p1",          name: "Basra Commercial Plaza",          price: "Mixed-Use",          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-patterned-wall_1359-1004.jpg"},
         {
-          id: "p2",
-          name: "Modern Luxury Villa",
-          price: "Residential",
-          imageSrc: "http://img.b2bpic.net/free-photo/beachfront-bungalow-dusk_23-2152016394.jpg",
-        },
+          id: "p2",          name: "Modern Luxury Villa",          price: "Residential",          imageSrc: "http://img.b2bpic.net/free-photo/beachfront-bungalow-dusk_23-2152016394.jpg"},
         {
-          id: "p3",
-          name: "Corporate Office HQ",
-          price: "Commercial",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-from-home_23-2148916091.jpg",
-        },
+          id: "p3",          name: "Corporate Office HQ",          price: "Commercial",          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-from-home_23-2148916091.jpg"},
         {
-          id: "p4",
-          name: "Green Urban Flats",
-          price: "Residential",
-          imageSrc: "http://img.b2bpic.net/free-photo/daylight-analog-city-landscape-with-buildings_23-2149661406.jpg",
-        },
+          id: "p4",          name: "Green Urban Flats",          price: "Residential",          imageSrc: "http://img.b2bpic.net/free-photo/daylight-analog-city-landscape-with-buildings_23-2149661406.jpg"},
         {
-          id: "p5",
-          name: "Public Transit Hub",
-          price: "Infrastructure",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-loft-luxury-living-room-with-design-chandelier_105762-2226.jpg",
-        },
+          id: "p5",          name: "Public Transit Hub",          price: "Infrastructure",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-loft-luxury-living-room-with-design-chandelier_105762-2226.jpg"},
         {
-          id: "p6",
-          name: "City Bridge Project",
-          price: "Infrastructure",
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-yellow-cable-stayed-bridge-with-blue-cloudy-sky_181624-13017.jpg",
-        },
+          id: "p6",          name: "City Bridge Project",          price: "Infrastructure",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-yellow-cable-stayed-bridge-with-blue-cloudy-sky_181624-13017.jpg"},
       ]}
       title="Our Projects"
       description="Selected architectural design highlights across Iraq and beyond."
@@ -171,26 +118,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Commercial Planning",
-          description: "High-impact designs for modern commercial requirements.",
-          imageSrc: "http://img.b2bpic.net/free-photo/bird-s-eye-view-shanghai_1127-3999.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/anime-style-house-structure_23-2151064746.jpg",
-          buttonText: "Learn More",
-        },
+          title: "Commercial Planning",          description: "High-impact designs for modern commercial requirements.",          imageSrc: "http://img.b2bpic.net/free-photo/bird-s-eye-view-shanghai_1127-3999.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/anime-style-house-structure_23-2151064746.jpg",          buttonText: "Learn More"},
         {
-          title: "Residential Design",
-          description: "Custom homes that blend aesthetic with functionality.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-person-holding-small-house-hand_1048-17805.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-delicious-high-protein-vegan-meal_23-2149091316.jpg",
-          buttonText: "Learn More",
-        },
+          title: "Residential Design",          description: "Custom homes that blend aesthetic with functionality.",          imageSrc: "http://img.b2bpic.net/free-photo/young-person-holding-small-house-hand_1048-17805.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-delicious-high-protein-vegan-meal_23-2149091316.jpg",          buttonText: "Learn More"},
         {
-          title: "Urban Infrastructure",
-          description: "Sustainable projects shaping the future of our communities.",
-          imageSrc: "http://img.b2bpic.net/free-photo/abandoned-greenhouse-armenia_181624-24608.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/construction-site-with-tower-crane-apartments-urban-modern-architecture_169016-69092.jpg",
-          buttonText: "Learn More",
-        },
+          title: "Urban Infrastructure",          description: "Sustainable projects shaping the future of our communities.",          imageSrc: "http://img.b2bpic.net/free-photo/abandoned-greenhouse-armenia_181624-24608.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/construction-site-with-tower-crane-apartments-urban-modern-architecture_169016-69092.jpg",          buttonText: "Learn More"},
       ]}
       title="Our Expertise"
       description="We specialize in integrated design solutions from conceptualization to completion."
@@ -202,30 +134,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Ali Hassan",
-          imageSrc: "http://img.b2bpic.net/free-photo/upper-angle-view-happy-beautiful-woman-holding-smartphone-sitting-home-having-break-from-work_1258-199926.jpg",
-        },
+          id: "1",          name: "Ali Hassan",          imageSrc: "http://img.b2bpic.net/free-photo/upper-angle-view-happy-beautiful-woman-holding-smartphone-sitting-home-having-break-from-work_1258-199926.jpg"},
         {
-          id: "2",
-          name: "Sarah Ahmed",
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-showing-draft-woman_23-2147807973.jpg",
-        },
+          id: "2",          name: "Sarah Ahmed",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-showing-draft-woman_23-2147807973.jpg"},
         {
-          id: "3",
-          name: "Mustafa Kareem",
-          imageSrc: "http://img.b2bpic.net/free-photo/image-cheerful-curly-haired-woman-holds-paint-brush-roller-refurbishes-walls-red-color-dressed-casual-wear_273609-38580.jpg",
-        },
+          id: "3",          name: "Mustafa Kareem",          imageSrc: "http://img.b2bpic.net/free-photo/image-cheerful-curly-haired-woman-holds-paint-brush-roller-refurbishes-walls-red-color-dressed-casual-wear_273609-38580.jpg"},
         {
-          id: "4",
-          name: "Layla Saeed",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiling-person-conference-room_23-2149085944.jpg",
-        },
+          id: "4",          name: "Layla Saeed",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiling-person-conference-room_23-2149085944.jpg"},
         {
-          id: "5",
-          name: "Omar Fakhri",
-          imageSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081853.jpg",
-        },
+          id: "5",          name: "Omar Fakhri",          imageSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081853.jpg"},
       ]}
       cardTitle="Client Voices"
       cardAnimation="slide-up"
@@ -241,20 +158,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "150+",
-          description: "Completed Projects",
-        },
+          id: "m1",          value: "150+",          description: "Completed Projects"},
         {
-          id: "m2",
-          value: "12",
-          description: "Industry Awards",
-        },
+          id: "m2",          value: "12",          description: "Industry Awards"},
         {
-          id: "m3",
-          value: "20+",
-          description: "Years Experience",
-        },
+          id: "m3",          value: "20+",          description: "Years Experience"},
       ]}
       title="Our Impact"
       description="Evidence-based architectural excellence."
@@ -267,20 +175,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "How do we start a project?",
-          content: "Contact us to schedule a site analysis and briefing session.",
-        },
+          id: "1",          title: "How do we start a project?",          content: "Contact us to schedule a site analysis and briefing session."},
         {
-          id: "2",
-          title: "Do you work with commercial clients?",
-          content: "Yes, we specialize in high-end commercial master planning.",
-        },
+          id: "2",          title: "Do you work with commercial clients?",          content: "Yes, we specialize in high-end commercial master planning."},
         {
-          id: "3",
-          title: "Are your designs sustainable?",
-          content: "Sustainability is at the core of all our architectural solutions.",
-        },
+          id: "3",          title: "Are your designs sustainable?",          content: "Sustainability is at the core of all our architectural solutions."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-drawing-architectural-project_23-2148243003.jpg"
       mediaAnimation="slide-up"
@@ -294,8 +193,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Basra, Iraq"
       title="Visit Our Office"
       description="Located in the heart of Basra, Iraq. Reach out anytime via phone or email."
@@ -307,42 +205,27 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Links",
-          items: [
+          title: "Links",          items: [
             {
-              label: "Portfolio",
-              href: "#projects",
-            },
+              label: "Portfolio",              href: "#projects"},
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "07809643243",
-              href: "tel:07809643243",
-            },
+              label: "07809643243",              href: "tel:07809643243"},
             {
-              label: "07713169395",
-              href: "tel:07713169395",
-            },
+              label: "07713169395",              href: "tel:07713169395"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "Instagram",
-              href: "https://www.instagram.com/altiraz_eng/",
-            },
+              label: "Instagram",              href: "https://www.instagram.com/altiraz_eng/"},
           ],
         },
       ]}
