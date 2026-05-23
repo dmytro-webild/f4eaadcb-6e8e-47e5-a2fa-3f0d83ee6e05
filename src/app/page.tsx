@@ -32,13 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Home",          id: "/"},
         {
-          name: "About",          id: "about"},
+          name: "About",          id: "/"},
         {
-          name: "Projects",          id: "projects"},
+          name: "Projects",          id: "/"},
         {
-          name: "Contact",          id: "contact"},
+          name: "Contact",          id: "/"},
       ]}
       brandName="Al-Tiraz Engineering"
     />
@@ -52,7 +52,7 @@ export default function LandingPage() {
       description="Explore our award-quality architecture across residential, commercial, and mixed-use developments. See how we've shaped communities and delivered lasting value to our clients."
       buttons={[
         {
-          text: "View Our Portfolio",          href: "#projects"},
+          text: "View Our Portfolio",          href: "/#projects"},
       ]}
       carouselItems={[
         {
@@ -207,11 +207,11 @@ export default function LandingPage() {
         {
           title: "Links",          items: [
             {
-              label: "Portfolio",              href: "#projects"},
+              label: "Portfolio",              href: "/#projects"},
             {
-              label: "About",              href: "#about"},
+              label: "About",              href: "/#about"},
             {
-              label: "Contact",              href: "#contact"},
+              label: "Contact",              href: "/#contact"},
           ],
         },
         {
