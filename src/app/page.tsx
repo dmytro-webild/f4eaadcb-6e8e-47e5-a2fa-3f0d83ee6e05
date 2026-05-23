@@ -120,7 +120,7 @@ export default function LandingPage() {
         {
           title: "Commercial Planning",          description: "High-impact designs for modern commercial requirements.",          imageSrc: "http://img.b2bpic.net/free-photo/bird-s-eye-view-shanghai_1127-3999.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/anime-style-house-structure_23-2151064746.jpg",          buttonText: "Learn More"},
         {
-          title: "Residential Design",          description: "Custom homes that blend aesthetic with functionality.",          imageSrc: "http://img.b2bpic.net/free-photo/young-person-holding-small-house-hand_1048-17805.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-delicious-high-protein-vegan-meal_23-2149091316.jpg",          buttonText: "Learn More"},
+          title: "Residential Design",          description: "Custom homes that blend aesthetic with functionality.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E7GgnBGXNvhfaU0AfL11xLtTb6/uploaded-1779523913256-yxj7uhdu.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-delicious-high-protein-vegan-meal_23-2149091316.jpg",          buttonText: "Learn More"},
         {
           title: "Urban Infrastructure",          description: "Sustainable projects shaping the future of our communities.",          imageSrc: "http://img.b2bpic.net/free-photo/abandoned-greenhouse-armenia_181624-24608.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/construction-site-with-tower-crane-apartments-urban-modern-architecture_169016-69092.jpg",          buttonText: "Learn More"},
       ]}
@@ -158,11 +158,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",          value: "150+",          description: "Completed Projects"},
+          id: "m1",          value: "80+",          description: "Completed Projects"},
         {
           id: "m2",          value: "12",          description: "Industry Awards"},
         {
-          id: "m3",          value: "20+",          description: "Years Experience"},
+          id: "m3",          value: "10+",          description: "Years Experience"},
       ]}
       title="Our Impact"
       description="Evidence-based architectural excellence."
